@@ -1,0 +1,8 @@
+/build
+.idea
+.gradle
+.gitignore
+.npmignore
+local.properties
+.DS_Store
+
