@@ -1,6 +1,6 @@
 {
   "name": "capacitor-pm-storage-realm",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Capacitor plugin for Realm",
   "main": "dist/esm/index.js",
   "types": "dist/esm/index.d.ts",
@@ -13,13 +13,13 @@
   "author": "Pete Macko",
   "license": "MIT",
   "dependencies": {
-    "@capacitor/core": "latest"
+    "@capacitor/core": "^2.0.1"
   },
   "devDependencies": {
-    "@capacitor/android": "^1.1.1",
-    "@capacitor/ios": "^1.1.1",
+    "@capacitor/android": "^1.5.2",
+    "@capacitor/ios": "^1.5.2",
     "rollup-plugin-node-resolve": "^5.2.0",
-    "typescript": "^3.2.4"
+    "typescript": "^3.8.3"
   },
   "files": [
     "dist/",
