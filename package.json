@@ -13,13 +13,13 @@
   "author": "Pete Macko",
   "license": "MIT",
   "dependencies": {
-    "@capacitor/core": "^2.0.1"
+    "@capacitor/core": "^2.4.2"
   },
   "devDependencies": {
-    "@capacitor/android": "^1.5.2",
-    "@capacitor/ios": "^1.5.2",
+    "@capacitor/android": "^2.4.2",
+    "@capacitor/ios": "^2.4.2",
     "rollup-plugin-node-resolve": "^5.2.0",
-    "typescript": "^3.8.3"
+    "typescript": "^3.9.7"
   },
   "files": [
     "dist/",
