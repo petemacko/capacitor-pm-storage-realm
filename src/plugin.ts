@@ -13,7 +13,7 @@ export class StorageRealm {
     }
 
     async clear(): Promise<void> {
-        return CapacitorStorageRealmPlugin.clear({});
+        return CapacitorStorageRealmPlugin.clear();
     }
 
     async get(options: KeyOnlyOptions): Promise<StringValueResults | void> {
@@ -21,7 +21,7 @@ export class StorageRealm {
     }
 
     async keys(): Promise<{ keys: Array<string> } | void> {
-        return CapacitorStorageRealmPlugin.keys({});
+        return CapacitorStorageRealmPlugin.keys();
     }
 
     async remove(options: KeyOnlyOptions): Promise<void> {
