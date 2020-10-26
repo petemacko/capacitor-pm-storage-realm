@@ -1,6 +1,6 @@
 {
   "name": "capacitor-pm-storage-realm",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Capacitor plugin for Realm",
   "main": "dist/esm/index.js",
   "types": "dist/esm/index.d.ts",
