@@ -5,7 +5,7 @@ target 'RealmPlugin' do
   use_frameworks!
   pod 'Capacitor', :path => '../node_modules/@capacitor/ios'
   pod 'CryptoSwift', '0.15.0'
-  pod 'RealmSwift'
+  pod 'RealmSwift', '5.5.0'
 end
 
 target 'RealmPluginTests' do

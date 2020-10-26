@@ -1,7 +1,7 @@
 
   Pod::Spec.new do |s|
     s.name = 'CapacitorPmStorageRealm'
-    s.version = '1.0.2'
+    s.version = '1.0.3'
     s.summary = 'Realm Plugin'
     s.license = 'MIT'
     s.homepage = 'https://github.com/petemacko/capacitor-pm-storage-realm'
@@ -11,5 +11,5 @@
     s.ios.deployment_target  = '11.0'
     s.dependency 'Capacitor'
     s.dependency 'CryptoSwift', '0.15.0'
-    s.dependency 'RealmSwift'
+    s.dependency 'RealmSwift', '5.5.0'
   end
