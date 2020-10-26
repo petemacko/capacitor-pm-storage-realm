@@ -1,21 +1,21 @@
 PODS:
-  - Capacitor (1.1.1):
-    - CapacitorCordova (= 1.1.1)
-  - CapacitorCordova (1.1.1)
-  - CryptoSwift (0.12.0)
-  - Realm (3.17.3):
-    - Realm/Headers (= 3.17.3)
-  - Realm/Headers (3.17.3)
-  - RealmSwift (3.17.3):
-    - Realm (= 3.17.3)
+  - Capacitor (2.4.2):
+    - CapacitorCordova
+  - CapacitorCordova (2.1.1)
+  - CryptoSwift (0.15.0)
+  - Realm (5.5.0):
+    - Realm/Headers (= 5.5.0)
+  - Realm/Headers (5.5.0)
+  - RealmSwift (5.5.0):
+    - Realm (= 5.5.0)
 
 DEPENDENCIES:
   - "Capacitor (from `../node_modules/@capacitor/ios`)"
-  - CryptoSwift (= 0.12.0)
-  - RealmSwift
+  - CryptoSwift (= 0.15.0)
+  - RealmSwift (= 5.5.0)
 
 SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
+  https://cdn.cocoapods.org/:
     - CapacitorCordova
     - CryptoSwift
     - Realm
@@ -26,12 +26,12 @@ EXTERNAL SOURCES:
     :path: "../node_modules/@capacitor/ios"
 
 SPEC CHECKSUMS:
-  Capacitor: f245413edff86ebf3d18bf76cadaee4be58b4a04
-  CapacitorCordova: 25811fd90c0ea23ea135a42a217d1918873fa566
-  CryptoSwift: 1c07ca50843dd48bc54e6ea53d7a4dba3b645716
-  Realm: 5a1d9d47bfc101dd597668b1a8af4288a2557f6d
-  RealmSwift: b7fdc2d18616621c31df5c7a398a45a2163f8eb0
+  Capacitor: 99a3d85b31f782d6b58bd9e3f2de4ed719c94d51
+  CapacitorCordova: 2271de4d678eb616c5f70fe6b4d53e17e88ae171
+  CryptoSwift: 769f58a9e89f64e8796c2e59ce5f002dc81a2438
+  Realm: fb399d76f44042e5cdfc630f33828fdb4d077345
+  RealmSwift: 3b7e62356207ef16d34de4e55d475163bd2062bb
 
-PODFILE CHECKSUM: 4e5a5ea88b25de6e92ef0591743f7419da882e8d
+PODFILE CHECKSUM: 43978f16434aa2f387b4228f697d2e35bbf9338d
 
-COCOAPODS: 1.7.2
+COCOAPODS: 1.9.3

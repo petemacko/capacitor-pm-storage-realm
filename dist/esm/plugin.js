@@ -17,7 +17,7 @@ export class StorageRealm {
     }
     clear() {
         return __awaiter(this, void 0, void 0, function* () {
-            return CapacitorStorageRealmPlugin.clear({});
+            return CapacitorStorageRealmPlugin.clear();
         });
     }
     get(options) {
@@ -27,7 +27,7 @@ export class StorageRealm {
     }
     keys() {
         return __awaiter(this, void 0, void 0, function* () {
-            return CapacitorStorageRealmPlugin.keys({});
+            return CapacitorStorageRealmPlugin.keys();
         });
     }
     remove(options) {
